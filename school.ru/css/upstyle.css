@@ -1,0 +1,18 @@
+﻿body {font:15px/1.5 Verdana, Arial, Helvetica, sans-serif;}
+.table_block {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -khtml-border-radius: 10px;
+  border: 3px solid #445C4C;
+}​
+a {
+    color: #93d9e2;
+}
+
+a:visited, a:focus, a:hover {
+    color: #8ab6a9;
+  }
+.a_black {
+	color: black;
+}

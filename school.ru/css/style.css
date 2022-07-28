@@ -1,0 +1,47 @@
+﻿* {margin:0; padding:0}
+body {font:11px/1.5 Verdana, Arial, Helvetica, sans-serif;}
+ul, li {border:0; margin:0; padding:0; list-style:none;}
+ul{
+    border-bottom:solid 1px #DEDEDE;
+    height:29px;
+    padding-left:20px;
+}
+li{
+    float:left;
+    margin-right:2px;
+}
+.tab a:link, .tab a:visited{
+    display:block;
+    float:left;
+    height:30px;
+    background:url(../image/tab-round.png) no-repeat right -30px;
+    color:#666;
+    font-weight:bold;
+    text-decoration:none;
+    padding-right:14px;
+}
+.tab a span{
+    display:block;
+    float:left;
+    height:30px;
+    background:url(../image/tab-round.png) no-repeat left -30px;
+    padding-left:14px;
+    line-height:30px;
+    cursor:pointer
+}
+.tab a:hover{
+    background:url(../image/tab-round.png) no-repeat right -60px;
+}
+.tab a:hover span{
+    background:url(../image/tab-round.png) no-repeat left -60px;
+}
+.active a:link, .active a:visited, .active a:visited, .active a:hover{
+    background:url(../image/tab-round.png) no-repeat right 0;
+}
+
+p{
+    color: black;
+}
+.active a span, .active a:hover span{
+    background:url(../image/tab-round.png) no-repeat left 0;
+}
